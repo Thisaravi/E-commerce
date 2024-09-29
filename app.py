@@ -39,7 +39,7 @@ class Signup(db.Model):
 #------------------------------------------------------------------------------------------------------
 
 
-#  to get content-based recommendations
+# Function to get content-based recommendations
 
 def content_based_recommendations(train_data, product_name, top_n=5):
 
