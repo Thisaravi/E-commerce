@@ -22,7 +22,7 @@ app = Flask(__name__)
 # Database configuration
 
 app.secret_key = "SLIIT"
-app.config['SQLALCHEMY_DATABASE_URI'] = "mysql+pymysql://root:SLIIT@localhost/electromart"  
+app.config['SQLALCHEMY_DATABASE_URI'] = "mysql+pymysql://root:root@localhost/electromart"  
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 db = SQLAlchemy(app)
 
